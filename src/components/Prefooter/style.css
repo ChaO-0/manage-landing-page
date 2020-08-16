@@ -1,0 +1,55 @@
+.prefooter {
+  justify-content: space-between;
+  background-color: hsl(12, 88%, 59%);
+  background-image: url("../../images/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 0 right -16rem;
+}
+
+.flexing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  margin: auto;
+}
+
+.prestart button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(12, 88%, 59%);
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
+.prefooter h1 {
+  color: hsl(0, 0%, 98%);
+  width: 40%;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 768px) {
+  .prefooter {
+    background-position: bottom 50px right -16rem;
+  }
+
+  .flexing {
+    display: block;
+    height: 400px;
+    position: relative;
+  }
+
+  .prefooter h1 {
+    width: 80%;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .prestart {
+    text-align: center;
+  }
+}

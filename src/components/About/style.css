@@ -1,0 +1,93 @@
+#about {
+  display: flex;
+}
+
+.step {
+  display: block;
+  padding: 20px;
+  width: 100%;
+}
+
+.tambahan {
+  display: flex;
+}
+
+.stepper {
+  width: 100%;
+  padding-left: 3.5%;
+  overflow: hidden;
+}
+
+.num {
+  background-color: hsl(12, 88%, 59%);
+  height: 30px;
+  padding: 3px 20px;
+  color: white;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.step p {
+  color: hsl(227, 12%, 61%);
+  padding-left: 16.5%;
+}
+
+.title {
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.about-text {
+  width: 90%;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  color: hsl(228, 39%, 23%);
+}
+
+.about-text p {
+  width: 65%;
+  color: hsl(227, 12%, 61%);
+}
+
+@media only screen and (max-width: 768px) {
+  #about {
+    padding-top: 50px;
+    display: block;
+  }
+
+  .about-text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .about-text h1 {
+    font-size: 32px;
+    color: hsl(228, 39%, 23%);
+  }
+
+  .about-text p {
+    width: 100%;
+    color: hsl(227, 12%, 61%);
+  }
+
+  .stepper {
+    padding-left: 0;
+  }
+
+  .step-text {
+    padding-left: 7px;
+  }
+
+  .step p {
+    padding: 0;
+    width: 90%;
+  }
+
+  .tambahan {
+    background-color: hsl(13, 100%, 96%);
+    border-radius: 20px;
+  }
+}

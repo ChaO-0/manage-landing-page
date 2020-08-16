@@ -1,0 +1,141 @@
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  color: hsl(0, 0%, 98%);
+}
+
+.foot-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+.first-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-footer img {
+  padding-top: 10px;
+}
+
+.first-footer .social {
+  padding-top: 45%;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.first-nav div,
+.second-nav div {
+  padding-top: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.first-nav div:hover,
+.second-nav div:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.footer-input {
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+}
+
+.footer-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(12, 88%, 59%);
+  outline: none;
+  cursor: pointer;
+}
+
+.social i {
+  font-size: 20px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social i:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.third-footer {
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 35%;
+  right: 23%;
+  color: hsl(12, 88%, 59%);
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    color: hsl(0, 0%, 98%);
+  }
+
+  .footer-input {
+    margin-top: 10%;
+  }
+
+  .foot-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .first-footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .social i {
+    font-size: 30px;
+    padding: 0 5%;
+  }
+
+  .first-footer img {
+    width: 200px;
+    padding-top: 5%;
+    margin: auto;
+  }
+
+  .first-footer .social {
+    padding-top: 10%;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .second-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 5%;
+  }
+
+  .error {
+    position: absolute;
+    top: 100%;
+    right: 23%;
+    color: hsl(12, 88%, 59%);
+  }
+}
